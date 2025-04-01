@@ -32,31 +32,31 @@ Multiple monthly Excel files (January to December) were appended to the original
 - Explanation:
    - Flights with longer block times (300+ minutes) are usually long-haul or cross-country. These flights often operate from larger hub airports with better infrastructure and dedicated gates, possibly reducing taxi delays.
     - On the other hand, short- to mid-haul flights might face more congestion or frequent takeoff/landing queues, leading to more variability in taxi time.
-[Taxi Time vs. Block Time Image ](https://drive.google.com/file/d/1FHCcMRB0cTVeXvtiVVeth2kBoApnod5k/view?usp=sharing) 
+[Taxi Time vs. Block Time Result ](https://drive.google.com/file/d/1FHCcMRB0cTVeXvtiVVeth2kBoApnod5k/view?usp=sharing) 
 
 ### Flight Outcomes by Day of Week
 - Insight: The distribution of Early, On-Time, and Late flights is fairly consistent across all weekdays.
 -	Friday (Day 5) shows a slight increase in late arrivals.
 -	Saturday (Day 6) has the least number of total flights, which may correlate with fewer operational challenges.
 - Explanation: Weekdays like Friday might require better block time planning to reduce late arrivals due to heavier traffic.
-[Block Category by Day of Week Image ](https://drive.google.com/file/d/1OUYErKozlyNr4T2yXKEIPri2KlGVUfWJ/view?usp=sharing) 
+[Block Category by Day of Week Result ](https://drive.google.com/file/d/1OUYErKozlyNr4T2yXKEIPri2KlGVUfWJ/view?usp=sharing) 
 
 ### Flight Outcomes by Month
 - There is a seasonal trend:
     -	October shows a notable increase in early arrivals.
     -	July and August (summer months) have a higher number of late arrivals, which might reflect seasonal demand and congestion.
 •	Explanation: Seasonality plays a role in operational performance, and block time buffers may need to be adjusted accordingly.
-[Block Category by Month ](https://drive.google.com/file/d/1PkBrk-QydlrN8rMx8DeyzAJ9X3RKXxaq/view?usp=sharing) 
+[Block Category by Month Result ](https://drive.google.com/file/d/1PkBrk-QydlrN8rMx8DeyzAJ9X3RKXxaq/view?usp=sharing) 
 
 ### Routes with Frequent Early Arrivals
 - Insight: Routes like LGA-DFW, ORD-DFW, and DFW-MIA have consistently earlier-than-scheduled arrivals (more than 10 minutes early on average).
 - Explanation: These routes might have overestimated schedule blocks, indicating potential optimization opportunities to save time and operational costs.
-[Routes with Frequent Early Arrivals Image ](https://drive.google.com/file/d/14XDIjTVsgwnorsSFu-N-3nYwVB9z5ylC/view?usp=sharing) 
+[Routes with Frequent Early Arrivals Result ](https://drive.google.com/file/d/14XDIjTVsgwnorsSFu-N-3nYwVB9z5ylC/view?usp=sharing) 
 
 ### Routes with Frequent Delays
 - Insight: Routes like MIA-DFW, SAT-DFW, and AUS-DFW show average delays of 18–21 minutes in block time.
 - Explanation: These market pairs might be impacted by consistent congestion or operational inefficiencies, and could benefit from re-evaluation of scheduled blocks.
-[Routes with Frequent Delays Image ](https://drive.google.com/file/d/1JotptBl_O--GAUxh5HktJ_LReupoS9k8/view?usp=sharing) 
+[Routes with Frequent Delays Result ](https://drive.google.com/file/d/1JotptBl_O--GAUxh5HktJ_LReupoS9k8/view?usp=sharing) 
 
 ## Variable Selection and Reduction
 In order to improve the model’s performance and reduce multicollinearity, I performed a thorough selection process by dropping variables that were redundant or highly correlated with the target variable, Block. This helps in ensuring that the model is not overwhelmed with irrelevant or duplicate information.
