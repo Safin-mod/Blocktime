@@ -49,8 +49,8 @@ Multiple monthly Excel files (January to December) were appended to the original
 [Block Category by Month ](https://drive.google.com/file/d/1PkBrk-QydlrN8rMx8DeyzAJ9X3RKXxaq/view?usp=sharing) 
 
 ### Routes with Frequent Early Arrivals
-• Insight: Routes like LGA-DFW, ORD-DFW, and DFW-MIA have consistently earlier-than-scheduled arrivals (more than 10 minutes early on average).
-• Explanation: These routes might have overestimated schedule blocks, indicating potential optimization opportunities to save time and operational costs.
+- Insight: Routes like LGA-DFW, ORD-DFW, and DFW-MIA have consistently earlier-than-scheduled arrivals (more than 10 minutes early on average).
+- Explanation: These routes might have overestimated schedule blocks, indicating potential optimization opportunities to save time and operational costs.
 [Routes with Frequent Early Arrivals Image ](https://drive.google.com/file/d/14XDIjTVsgwnorsSFu-N-3nYwVB9z5ylC/view?usp=sharing) 
 
 ### Routes with Frequent Delays
