@@ -58,6 +58,15 @@ Multiple monthly Excel files (January to December) were appended to the original
 - Explanation: These market pairs might be impacted by consistent congestion or operational inefficiencies, and could benefit from re-evaluation of scheduled blocks.
 [Routes with Frequent Delays Image ](https://drive.google.com/file/d/1JotptBl_O--GAUxh5HktJ_LReupoS9k8/view?usp=sharing) 
 
+## Variable Selection and Reduction
+In order to improve the model’s performance and reduce multicollinearity, I performed a thorough selection process by dropping variables that were redundant or highly correlated with the target variable, Block. This helps in ensuring that the model is not overwhelmed with irrelevant or duplicate information.
+
+### The following reasons guided my decision to drop certain variables:
+- Redundant Variables: Many columns, such as "OriginCityName" and "DestCityName", were repetitive and contained overlapping information that would not contribute new insights to the analysis.
+- High Correlation with the Target: Variables that were highly correlated with the target variable, Block, were removed to prevent overfitting and ensure the model remained generalizable.
+- Irrelevant or Identifier Variables: Columns like "Tail_Number" and "Flight_Number_Operating_Airline" are mostly unique identifiers that don't contribute to the predictive power of the model.
+- By reducing the dataset from over 119 variables to just 27, I ensured that the remaining features are meaningful, non-redundant, and improve the overall efficiency and interpretability of the model.
+
 ## Model Building
 Model Used: Random Forest
 
