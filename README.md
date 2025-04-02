@@ -45,7 +45,7 @@ Multiple monthly Excel files (January to December) were appended to the original
 - There is a seasonal trend:
     -	October shows a notable increase in early arrivals.
     -	July and August (summer months) have a higher number of late arrivals, which might reflect seasonal demand and congestion.
-•	Explanation: Seasonality plays a role in operational performance, and block time buffers may need to be adjusted accordingly.
+- Explanation: Seasonality plays a role in operational performance, and block time buffers may need to be adjusted accordingly.
 [Block Category by Month Result ](https://drive.google.com/file/d/1PkBrk-QydlrN8rMx8DeyzAJ9X3RKXxaq/view?usp=sharing) 
 
 ### Routes with Frequent Early Arrivals
