@@ -27,7 +27,7 @@ Multiple monthly Excel files (January to December) were appended to the original
 
 ## Exploratory Data Analysis (EDA)
 ### Taxi Time vs. Block Time
--  General Trend: As the ActualBlock time increases, TaxiTotal (sum of TaxiIn and TaxiOut) generally increases—up to a point.
+-  General Trend: As the ActualBlock time increases, TaxiTotal (sum of TaxiIn and TaxiOut) generally increases up to a point.
 -  Interesting Observation: After around 300 minutes of block time, the taxi time starts to stabilize or slightly decline, rather than continuing to grow.
 - Explanation:
    - Flights with longer block times (300+ minutes) are usually long-haul or cross-country. These flights often operate from larger hub airports with better infrastructure and dedicated gates, possibly reducing taxi delays.
