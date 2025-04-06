@@ -92,7 +92,7 @@ Set to 1 to manage memory usage and improve execution speed, as the model was ta
 - RMSE: ≈ 18.03 minutes
 - R^2 Score: ≈ 0.9226
 - Adjusted R^2 ≈ 0.9226
-- Training R^2 ≈ 0.9231
+- Training R^2 ≈ 0.9231  
 Good model performance due to a clean and predictable dataset.
 
 ## Feature Importance
