@@ -89,9 +89,15 @@ Set to 1 to manage memory usage and improve execution speed, as the model was ta
 
 
 ### Evaluation:
-- RMSE: ≈ 14.01 minutes
-- R^2 Score: ≈ 0.9532
+- RMSE: ≈ 18.03 minutes
+- R^2 Score: ≈ 0.9226
+- Adjusted R^2 ≈ 0.9226
+- Training R^2 ≈ 0.9231
 Good model performance due to a clean and predictable dataset.
+
+## Feature Importance
+Random Forest revealed that Distance is by far the most important predictor of actual block time, followed by airline identifier and arrival delay metrics. This aligns with expectations, as longer routes naturally take more time.
+[Feature Importance Result](https://drive.google.com/file/d/1n9812YBJE-3duLaAQE_bivLLtcaXZVL-/view?usp=sharing) 
 
 ## Cross Validation
 I also tried to perform K-Fold Cross Validation (3 folds) with Random Forest on a subsample of 100,000 rows due to memory limits in Google Colab and to mitigate overfitting. The results remained quite similar, likely because my dataset was clean and well-structured, with a diverse set of variables that contributed to high accuracy
